@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html, body, .webgl {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.webgl:after {
+  content: "welcome to Earth";
+  color: lightcyan;
+ 
+  text-transform: uppercase;
+  font-family: "Roboto", arial;
+  font-size: 40px;
+  font-weight: 300;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 100;
+  top: 10%;
+  left: 10%;
+  width: 100%;
+}
